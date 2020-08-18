@@ -22,6 +22,7 @@
 		013A629420D979400078FB3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		013A629720D979400078FB3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		013A629920D979400078FB3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		754FC9F224EAA13B00590E11 /* 01-iamrich.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "01-iamrich.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		013A628C20D9793F0078FB3C /* 01-iamrich */ = {
 			isa = PBXGroup;
 			children = (
+				754FC9F224EAA13B00590E11 /* 01-iamrich.entitlements */,
 				013A628D20D9793F0078FB3C /* AppDelegate.swift */,
 				013A62A020D97D500078FB3C /* Controller */,
 				013A629F20D97D390078FB3C /* Storyboard */,
@@ -296,8 +298,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "01-iamrich/01-iamrich.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LV4V48ATK9;
+				DEVELOPMENT_TEAM = 98U7PTVVWX;
 				INFOPLIST_FILE = "01-iamrich/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,6 +309,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.juangabriel.iamrich;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -315,8 +319,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "01-iamrich/01-iamrich.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = LV4V48ATK9;
+				DEVELOPMENT_TEAM = 98U7PTVVWX;
 				INFOPLIST_FILE = "01-iamrich/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,6 +330,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.juangabriel.iamrich;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
